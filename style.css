@@ -1,0 +1,513 @@
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	}
+
+@font-face {
+    font-family:Besley_Medium;
+    src: url(Fontes/Besley-Medium.ttf);
+}
+
+@font-face {
+    font-family:Besley_SemiBold;
+    src: url(Fontes/Besley-SemiBold.ttf);
+}
+
+::-webkit-scrollbar {
+    width:8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebddff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #624191;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #382159;
+}
+
+body {
+    background-color:#EEEDF6;
+    width:100%;
+}
+
+main {
+    position:relative;
+    width:100%;
+    height:700px;
+    margin:auto;
+}
+
+#nav_normal {
+    position:fixed;
+    width:100%;
+    height:50px;
+    background-color:#9682B6;
+    padding-left:30%;
+    z-index:8;
+}
+
+#nav_normal a {
+    color:#FFF;
+    text-decoration:none;
+    font-size:25px;
+    font-family:Besley_Medium;
+    margin-right:2%;
+    line-height:50px;
+}
+
+#nav_normal a:hover {
+    background-color:#FFF;
+    color:#9682B6;
+    transition:1s all;
+    padding-left:0.5%;
+    padding-right:0.5%;
+}
+
+.escuro {
+    position:relative;
+    float:right;
+    padding:0.5%;
+    background-color:#353535;
+    color:#FFF;
+    border-radius:30px;
+    margin-right:5%;
+    margin-top:8px;
+}
+
+.claro {
+    position:relative;
+    float:right;
+    padding:0.5%;
+    background-color:#FFF;
+    color:#353535;
+    border-radius:30px;
+    margin-right:2%;
+    margin-top:8px;
+}
+
+.escuro:hover, .claro:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size:30px;
+    color:#6A528F;
+    font-family:Besley_SemiBold;
+}
+
+p {
+    font-size:25px;
+    font-family:Besley_Medium;
+}
+
+#home {
+    position:relative;
+    width:90%;
+    margin-left:5%;
+    float:left;
+    margin-bottom:100px;
+}
+
+#h1_home {
+    position:relative;
+    float:left;
+    margin-top:200px;
+    margin-bottom:20px;
+}
+
+#p_home {
+    position: relative;
+    float:left;
+    color:#353535;
+}
+
+#logo {
+    margin-top:110px;
+    margin-left:5.6%;
+    display:visible;
+}
+
+#logo:hover {
+    transition:1s all;
+}
+
+#história {
+    position:relative;
+    clear:both;
+    width:100%;
+    height:550px;
+    background-color:#C0B9FC;
+}
+
+#ferramentas {
+    margin-top:49px;
+    margin-left:5%;
+    float:left;
+}
+
+#h1_história {
+    position: relative;
+    float:left;
+    margin-top:85px;
+    margin-bottom:20px;
+    margin-left:4%;
+}
+
+#p_história {
+    position: relative;
+    float:left;
+    color:#FFF;
+    margin-left:4%;
+}
+
+#ferramentas:hover {
+    filter:contrast(150%);
+    transition:1s all;
+}
+
+#artesanatos {
+    position:relative;
+    width:100%;
+    height:1910px;
+}
+
+#h1_artesanatos {
+    position:relative;
+    float:left;
+    margin-top:110px;
+    margin-bottom:20px;
+    margin-left:43%;
+}
+
+#carrosel {
+    position:relative;
+    width:60%;
+    margin-left:20%;
+    margin-bottom:110px;
+    float:left;
+}
+
+#carrosel img {
+    height:500px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    margin-top:30px;
+}
+
+#veja_mais {
+    position:relative;
+    margin-left:10%;
+    margin-bottom:20px;
+    clear:both;
+}
+
+#instagram {
+    position:relative;
+    float:left;
+    width:60%;
+    margin-left:30%;
+}
+
+#contatos {
+    position:relative;
+    clear:both;
+    width:100%;
+    height:550px;
+    background-color:#C0B9FC;
+}
+
+#insta_wpp {
+    position:relative;
+    margin-left:10%;
+    margin-bottom:20px;
+    float:left;
+    margin-top:110px;
+}
+
+#whats {
+    position:absolute;
+    float:left;
+    top:250px;
+    left:12%;
+}
+
+#insta {
+    position:absolute;
+    float:left;
+    top:250px;
+    left:27%;
+}
+
+#whats:hover, #insta:hover {
+    filter:contrast(180%);
+}
+
+#barra {
+    position:relative;
+    width:2px;
+    height:430px;
+    background-color:#6A528F;
+    float:left;
+    margin-left:9.3%;
+    margin-top:60px;
+    display:visible;
+}
+
+#endereço {
+    position:relative;
+    float:left;
+    margin-left:15%;
+    margin-top:110px;
+    margin-bottom:20px;
+}
+
+#mapa {
+    position:relative;
+    float:left;
+    margin-left:10.5%;
+}
+
+footer {
+    position:relative;
+    clear:both;
+    width:100%;
+    height:100px;
+    background-color:#6A528F;
+}
+
+footer img {
+    position:relative;
+    width:85px;
+    height:70px;
+    margin-left:3%;
+    margin-top:20px;
+    float:left;
+}
+
+footer p {
+    position:relative;
+    color:#FFF;
+    float:left;
+    margin-top:35px;
+    margin-left:65%;
+}
+
+@media only screen and (max-width: 480px) {
+    #nav_normal {
+        position:fixed;
+        width:100%;
+        height:280px;
+        background-color:#9682B6;
+        padding-left:0%;
+        z-index:8;
+    }
+    
+    #nav_normal a {
+        display: block;
+        text-align: center;
+        margin-right:40%;
+        color:#FFF;
+        text-decoration:none;
+        font-size:25px;
+        font-family:Besley_Medium;
+        line-height:50px;
+        border-bottom:1px solid #FFF;
+        width:100%;
+    }
+    
+    .escuro {
+        position:absolute;
+        padding:1%;
+        background-color:#353535;
+        color:#FFF;
+        border-radius:30px;
+        margin-top:25px;
+        clear:both;
+        margin-left:55%;
+    }
+    
+    .claro {
+        position:absolute;
+        padding:1%;
+        background-color:#FFF;
+        color:#353535;
+        border-radius:30px;
+        margin-top:25px;
+        clear:both;
+        margin-left:25%;
+    }
+
+    #logo {
+        display:none;
+    }
+
+    #home {
+        position:relative;
+        width:90%;
+        margin-left:25%;
+        float:left;
+        justify-content: center;
+    }
+    
+    #h1_home {
+        position:relative;
+        float:left;
+        margin-top:320px;
+        margin-bottom:25px;
+        text-align:center;
+    }
+
+    #p_home {
+        margin-left:-10%;
+    }
+
+    #história {
+        position:relative;
+        clear:both;
+        width:131.8%;
+        height:1150px;
+        background-color:#C0B9FC;
+    }
+    
+    #ferramentas {
+        width:300px;
+        height:320px;
+        margin-top:49px;
+        margin-left:15%;
+        float:left;
+    }
+    
+    #h1_história {
+        position: relative;
+        float:left;
+        margin-top:85px;
+        margin-bottom:20px;
+        margin-left:10%;
+    }
+    
+    #p_história {
+        position: relative;
+        float:left;
+        color:#FFF;
+        margin-left:3%;
+    }
+    #artesanatos {
+        position:relative;
+        width:100%;
+        height:1550px;
+    }
+    
+    #h1_artesanatos {
+        position:relative;
+        float:left;
+        margin-top:90px;
+        margin-bottom:30px;
+        margin-left:35%;
+    }
+    
+    #carrosel {
+        position:relative;
+        width:100%;
+        margin-left:15%;
+        margin-bottom:90px;
+        float:left;
+    }
+    
+    #carrosel img {
+        height:300px;
+    }
+
+    #veja_mais {
+        position:relative;
+        margin-left:10%;
+        margin-bottom:30px;
+        clear:both;
+    }
+    
+    #instagram {
+        position:relative;
+        float:left;
+        width:100%;
+        margin-left:15%;
+    }
+
+    #contatos {
+        position:relative;
+        clear:both;
+        width:131.9%;
+        height:900px;
+        background-color:#C0B9FC;
+    }
+    
+    #insta_wpp {
+        position:relative;
+        margin-bottom:30px;
+        float:left;
+        margin-top:90px;
+    }
+    
+    #whats {
+        position:absolute;
+        float:left;
+        top:220px;
+        left:5%;
+    }
+    
+    #insta {
+        position:absolute;
+        float:left;
+        top:220px;
+        left:57%;
+    }
+    
+    #barra {
+        display:none;
+    }
+    
+    #endereço {
+        position:relative;
+        float:left;
+        margin-left:25%;
+        margin-top:270px;
+        margin-bottom:20px;
+    }
+    
+    #mapa {
+        position:relative;
+        float:left;
+        margin-left:7%;
+    }
+
+    footer {
+        position:relative;
+        clear:both;
+        width:131.9%;
+        height:90px;
+        background-color:#6A528F;
+    }
+    
+    footer img {
+        position:relative;
+        width:70px;
+        height:60px;
+        margin-left:3%;
+        margin-top:20px;
+        float:left;
+    }
+    
+    footer p {
+        position:relative;
+        color:#FFF;
+        clear:both;
+        font-size:20px;
+        margin-left:40%;
+        margin-top:-45px;
+    }
+}
